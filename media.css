@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600&display=swap');
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+	*{
+		font-family: 'Jost', sans-serif;
+		font-size: 30px;
+		font-weight: 600;
+	}
+	header {
+		width: 375px;
+		height: 668px;
+	}
+	.container {
+		max-width: 375px;
+		margin: 0;
+		text-align: center;
+	}
+	.header__menu {
+		padding: 17px 10px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.logo {
+		font-size: 18px;
+		font-weight: 600;
+		line-height: 28.8px;
+	}
+	.menu, .tel {
+		display: none;
+	}
+	.nav{
+		display: flex;
+		gap: 10px;
+		position: relative;
+	}
+	.tel__btn, .menu__btn {
+		display: block;
+		border: 1px solid transparent;
+		background: transparent;
+		width: 44px;
+		height: 44px;
+		z-index: 1;
+	}
+	.header__item {
+		width: 320px;
+		display: flex;
+		flex-direction: column;
+		float: none;
+		position: absolute;
+		margin-top: 47px;
+	}
+	.header__title {
+		text-align: center;
+		width: 221px;
+		font-size: 30px;
+		font-weight: 600;
+		line-height: 48px;
+		margin-left: 73px;
+	}
+	.header__text {
+		width: 232px;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 25.6px;
+		text-align: center;
+		margin-left: 62px;
+	}
+	.header__img-item {
+		float: none;
+		width: 273px;
+		margin-top: 200px;
+	}
+	.header__btn {
+		position: relative;
+		width: 355px;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 25.6px;
+		padding: 17px 82px;
+		margin-bottom: 30px;
+		top: 237px;
+	}
+	.navbar {
+		display: block;
+	}
+	.navbar.open .menu {
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: #141024;
+		z-index: 1;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		row-gap: 20px;
+		line-height: 48px;
+	}
+	.navbar.open .del__btn {
+		position: fixed;
+		top: 10px;
+		right: 10px;
+		z-index: 1;
+		border: 1px solid transparent;
+		background: transparent;
+	}
+	.del__btn {
+		display: flex;
+		position: absolute;
+		background: transparent;
+		border: none;
+		top: -40px;
+	}
+	.btn__del {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.btn-del1 {
+		position: absolute;
+		width: 14px;
+		top: 16px;
+		right: 15px;
+	}
+	.robo {
+		padding: 60px 0;
+	}
+	.container {
+		width: 375px;
+	}
+	.robo__title {
+		width: 338px;
+		height: 160px;
+		font-size: 20px;
+		font-weight: 400;
+		line-height: 32px;
+		text-align: left;
+	}
+	.robo__info, .course__info {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 30px;
+	}
+	.robo__item {
+		width: 265px;
+	}
+	.robo__num{
+		font-size: 60px;
+		font-weight: 600;
+		line-height: 86.7px;
+	}
+	.robo__text, .course__text, .banner_text {
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 25.6px;
+	}
+	.course {
+		width: 375px;
+		padding: 40px 0 52px;
+	}
+	.course__info {
+		width: 355px;
+	}
+	.course__title, .banner__price, .banner_title {
+		font-size: 30px;
+		font-weight: 600;
+		line-height: 48px;
+		text-align: center;
+	}
+	.course__word {
+		font-size: 20px;
+		font-weight: 600;
+		line-height: 32px;
+	}
+	.course__text {
+		width: 300px;
+	}
+	.price {
+		width: 375px;
+		padding: 40px 0;
+	}
+	.price_info {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 30px;
+	}
+	.course__title {
+		width: 260px;
+		margin-left: 45px;
+	}
+	.price__banner {
+		width: 300px;
+		padding: 40px 20px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		transition: .2s ease;
+	}
+	.banner__price {
+		font-size: 50px;
+		font-weight: 600;
+		line-height: 80px;
+	}
+	.banner__btn, .banner__btn1 {
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 25.6px;
+		padding: 17px 74.5px;
+		width: 261px;
+	}
+	.contact {
+		width: 375px;
+		height: 553px;
+		padding: 40px 0;
+	}
+	.contact__item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.contact__info {
+		width: 300px;
+	}
+	.contact__title {
+		width: 300px;
+		font-size: 30px;
+		font-weight: 600;
+		line-height: 48px;
+	}
+	.contact__text {
+		width: 280px;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 25.6px;
+	}
+	.form {
+		width: 355px;
+	}
+	.form__info {
+		gap: 10px;
+	}
+	input {
+		padding:17px 20px;
+		font-size: 16px;
+	}
+	.footer {
+		width: 375px;
+		padding: 40px 0 20px;
+	}
+	.footer__info {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+	.footer__title {
+		font-size: 18px;
+		font-weight: 600;
+		line-height: 28.8px;
+	}
+	.footer__tel {
+		font-size: 16px;
+		font-weight: 600;
+		line-height: 25.6px;
+	}
+	.footer__list {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 40px;
+		color: rgba(255, 255, 255, 0.7);
+	}
+}
